@@ -1,0 +1,1 @@
+export const SERVER_URL = import.meta.env.VITE_ENV === "development" ? "http://localhost:5000" : "https://guitar-opt-in-landing-page.vercel.app-backend"
