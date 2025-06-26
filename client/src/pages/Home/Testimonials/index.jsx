@@ -9,7 +9,7 @@ export default function Testimonials() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prev) => (prev + 1) % testimonials.length)
-        }, 60000000)
+        }, 6000)
 
         return () => clearInterval(interval)
     }, [currentIndex, testimonials.length]) // Reset timer when currentIndex changes
