@@ -50,6 +50,11 @@ export default function Testimonials() {
                                         {testimonials[currentIndex].quote}
                                     </p>
                                     <div className="border-t pt-4">
+                                        <img
+                                            src={testimonials[currentIndex].imgUrl}
+                                            className="text-center mb-1 mx-auto w-14 h-14 rounded-full"
+
+                                        />
                                         <p className="font-semibold text-gray-900 mb-1">
                                             {testimonials[currentIndex].name}
                                         </p>
